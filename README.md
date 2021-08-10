@@ -24,6 +24,8 @@
 
 - En el playbook principal del rol "web" se habilito la instalacion de apache2 para los servidores Debian.
 
+- El uso de las variables en el codigo fue arreglado y ahora las variables llevan comillas, ejemplo: "{{ item }}" en vez de {{ item }}.
+
 
 
 -----USO EMPLEADO-----
